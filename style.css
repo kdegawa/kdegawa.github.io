@@ -1,0 +1,74 @@
+body { 
+    font: normal small verdana, arial, helvetica, sans-serif;
+    font-stretch: narrower;
+    margin: 0px;
+    background-color: white;
+/*    max-width: 800px;*/
+    max-width: 100%
+ }
+
+p  {
+    line-height: 140%;
+}
+
+#main { padding: 0 30px 0 30px }
+
+#topbar {width: 100%; border-collapse: collapse; margin-bottom: 5px;}
+#topstrip { margin-top: 4px; padding: 2px 0 2px 0; background-color: #d0ddee; font: bold small verdana, arial, helvetica, sans-serif;}
+#topstrip a { text-decoration: none; padding: 2px 7px 2px 7px; border-right: 2px solid white;}
+#topstrip a:hover { color: white; background-color: #114477; }
+
+.spicecode { padding-left: 10px; background-color: #EDF3FE; border-style: solid; border-width: 1px 1px 1px 1px; border-color: #555555; }
+
+.menu-item { background-color: #d0ddee}
+.sel-menu-item {color: white; background-color: #114477;}
+
+#siteTable {border-collapse: collapse;}
+
+.tablelink {text-decoration: none;}
+.tablelink:visited { color: blue }
+
+.content {
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+
+/* from wiki.css (htwiki) */
+h1 {
+	border-style: solid;
+	border-width: 1px 2px 2px 1px;
+	border-color: steelblue;
+	padding: 4px;
+	background-color: aliceblue;
+	font-size: 200%;
+	font-weight: normal;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+}
+h2 {
+	border-style: solid;
+	border-width: 1px 1px 1px 10px;
+	border-color: steelblue;
+	padding: 4px 0px 3px 10px;
+	background-color: aliceblue;
+	font-size: 160%;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+h3 {
+	border-style: solid;
+	border-width: 0px 0px 1px 10px;
+	border-color: steelblue;
+	padding: 4px 0px 3px 10px;
+	font-size: 120%;
+	font-weight: normal;
+}
+pre {
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: lightsteelblue;
+	margin-left: 10px;
+	padding: 5px;
+}
